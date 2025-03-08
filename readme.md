@@ -23,7 +23,9 @@ playwright install chromium
 ## 二、使用方法
 1. chrome启用远程调试：`google-chrome --remote-debugging-port=9222`
 2. chrome登录知乎
+3. 将参数修改为你的配置，启动发布工具 
 
+示例：
 ```bash
 python md2zhihu.py \
 --md /mnt/gogs/kbase/obsidian/01Project/Blog/content/OpenManus.md \
